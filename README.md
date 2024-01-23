@@ -1,6 +1,6 @@
-
 # CLEARDEKHO
- CLEARDEKHO offer you the convenience of shopping for eyeglasses that you need for your eyes - be it eyeglasses, computer glasses, kids glasses, contact lens, sunglasses, eyeglasses frames from a single virtual store.
+
+CLEARDEKHO offer you the convenience of shopping for eyeglasses that you need for your eyes - be it eyeglasses, computer glasses, kids glasses, contact lens, sunglasses, eyeglasses frames from a single virtual store.
 
 <h3>Live Demo Link https://cleardekho-rutuvikp.vercel.app/ </h3>
 
@@ -38,7 +38,7 @@
     <p>If you want to run our project in your local machine</p>
     <p>Follow the given steps:</p>
     <ul>
-        <li>Clone our respository <a href="https://github.com/RutuvikP/shiny-blade-5949.git">https://github.com/RutuvikP/shiny-blade-5949.git</a></li>
+        <!-- <li>Clone our respository <a href="https://github.com/RutuvikP/shiny-blade-5949.git">https://github.com/RutuvikP/shiny-blade-5949.git</a></li> -->
         <li>Open our code in VS code </li>
  <li>Then do npm install</li>
         <li>Then Initialize the server by writing 'npm run start' on Terminal</li>
@@ -51,16 +51,4 @@
         <li>Express</li>
          <li>Mongodb</li>
         <li>Chakra UI </li>
-        </ul>
-        <h1>Creators</h1>
-    <ul>
-        <li><a href="https://github.com/RutuvikP">@Rutuvik Patil</a></li>
-   <li><a href="https://github.com/AkshayKumarGaurav">@Akshay Kumar Gaurav</a></li>
-   <li><a href="https://github.com/lokeshchoudharyprogrammer">@Lokesh Choudhary</a></li>
-  <li><a href="https://github.com/Arnab-108">@Arnab Adhikary</a></li>
-  <li><a href="https://github.com/VivekKumar2380">@Vivek Kumar</a></li>
- 
-   
-        
-        
-
+    </ul>
