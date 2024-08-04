@@ -1,6 +1,6 @@
 const JWT = require("jsonwebtoken")
 require('dotenv').config();
-const {AdminModel} = require("../model/Admin.model");
+const { AdminModel } = require("../model/Admin.model");
 const AdminController = async (req, res) => {
     try {
         const { name, email, password, phone } = req.body;
@@ -18,8 +18,6 @@ const AdminController = async (req, res) => {
             return res.send({ error: "Phone no is Required" });
         }
 
-
-
         const exisitingUser = await AdminModel.findOne({ email });
 
         if (exisitingUser) {
@@ -29,14 +27,16 @@ const AdminController = async (req, res) => {
             });
         }
         const hashedPassword = await hashPassword(password);
-      
+
         const user = await new AdminModel({
             name,
             email,
             phone,
             password: hashedPassword,
-            role:"admin"
-        }).save();
+            role: "admin"
+        })
+        
+        user.save();
 
         res.status(201).send({
             success: true,
@@ -79,15 +79,15 @@ const loginController = async (req, res) => {
                 message: "Invalid Password",
             });
         }
-        //token
-        const token = await JWT.sign({userName:user.name}, process.env._PRIVATE_KEY, {
-            expiresIn: "7d",
-        });
+        //token  process.env._PRIVATE_KEY
+        // const token = await JWT.sign({ userName: user.name }, {
+        //     expiresIn: "7d",
+        // });
         res.status(200).send({
             success: true,
             message: "Admin login successfull",
             user,
-            token,
+            // token,
         });
     } catch (error) {
         console.log(error);
@@ -99,7 +99,6 @@ const loginController = async (req, res) => {
     }
 };
 
-
 const testController = (req, res) => {
     try {
         res.send("Protected Routes");
@@ -108,7 +107,6 @@ const testController = (req, res) => {
         res.send({ error });
     }
 };
-
 
 const bcrypt = require("bcrypt");
 
@@ -122,14 +120,12 @@ const hashPassword = async (password) => {
     }
 }
 
-
 const comparePassword = async (password, hashedPassword) => {
 
 
     return bcrypt.compare(password, hashedPassword)
 
 }
-
 
 module.exports = {
     AdminController, loginController, testController

@@ -3,14 +3,7 @@ import { Box } from "@chakra-ui/react";
 
 const HomepageContent7 = () => {
   return (
-    <Box
-      w="100%"
-      m="auto"
-      bgColor="#000042"
-      color="whiteAlpha.900"
-      pt={9}
-      pl={9}
-    >
+    <Box w="100%" m="auto" bgColor="#000042" color="whiteAlpha.900" pt={9} pl={9}>
       <Box fontSize="45px" w="97%" margin="auto" textAlign="left">
         Buy The Best Eyewear From Lenskart
       </Box>

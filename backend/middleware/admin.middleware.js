@@ -4,12 +4,10 @@ require('dotenv').config();
 
 const Adminmiddleware = async (req, res, next) => {
     const token = req.headers.authorization
-    const {email,password}=req.body;
-    const user=await AdminModel.findOne({email,password})
+    const { email, password } = req.body;
+    const user = await AdminModel.findOne({ email, password })
     if (token && user) {
-
         let decoded = jwt.verify(token.split(" ")[1], process.env._PRIVATE_KEY)
-
         if (decoded) {
             next()
         } else {
@@ -22,6 +20,4 @@ const Adminmiddleware = async (req, res, next) => {
 
 }
 
-module.exports = {
-    Adminmiddleware
-}
+module.exports = { Adminmiddleware }

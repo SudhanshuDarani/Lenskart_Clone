@@ -5,26 +5,20 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/autoplay";
-const HomepageContent6 = ({ data, text }) => {
+const HomepageContent6 = ({ data, text, index }) => {
   return (
     <Box
-      justifyContent="left"
-      w="85%"
-      m="auto"
-      mt="6"
-      cursor="pointer"
-      fontSize="22px"
-      pb="7"
-      fontWeight="400"
-    >
+      key={index} textAlign={"left"} justifyContent="left" w="90%" m="auto" mt="6"
+      fontSize="25pt" pb="7" fontWeight="400" >
       {text}
       <hr />
-      <Box mt="1">
-        <Swiper
+      <Box mt="0" >
+        <Swiper 
           modules={[Navigation, Autoplay]}
           navigation
           style={{
             "--swiper-navigation-color": "#E5E4E2",
+            // "border": "4px solid red"
           }}
           autoplay={{ delay: 4000 }}
           breakpoints={{
@@ -48,22 +42,21 @@ const HomepageContent6 = ({ data, text }) => {
               slidesPerView: 3,
               spaceBetween: 30,
             },
-          }}
-        >
+          }}>
           {data.map((e) => (
-            <Box key={e}>
-              <SwiperSlide>
-                <Link to={e.linked}>
-                  <Square m="auto">
-                    <Image
-                      src={`${e.img}`}
-                      alt={e.caption}
-                      boxSize="160px"
-                      w="80%"
-                    />
-                  </Square>
-                </Link>
+            <Box>
+              {/* <Link href={"/eyeglasses"} > */}
+              <SwiperSlide style={{ height: "180pt", width: "400pt" }}>
+                <Square style={{ height: "100%" }} m="auto" display={"flex"} justifyContent={"center"}
+                  alignItems={"center"}>
+                  <Link href="/eyeglasses" style={{ textDecoration: "none", color: "black" }}>
+                    <Image cursor={"pointer"}
+                      src={`${e.img}`} alt={e.caption}
+                      w={["80%", "", "", "", "100%"]} />
+                  </Link>
+                </Square>
               </SwiperSlide>
+              {/* </Link> */}
             </Box>
           ))}
         </Swiper>

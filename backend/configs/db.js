@@ -1,6 +1,14 @@
-const mongoose=require('mongoose');
-require('dotenv').config();
+const mongoose = require('mongoose');
+const mongooseURL = "mongodb+srv://Sudhanshu:lenskartCloneDatabase@cluster2.qmd4ggx.mongodb.net/?retryWrites=true&w=majority";
 
-const connection=mongoose.connect(process.env._MONGO_URL)
+const connectedToMongodb = async () => {
+    try {
+        const connection = await mongoose.connect(mongooseURL);
+        console.log("connected to mongodb");
+    } catch (error) {
+        console.log(error.message); 
+    }
+}
+// process.env._MONGO_URL
 
-module.exports={connection};
+module.exports = connectedToMongodb;

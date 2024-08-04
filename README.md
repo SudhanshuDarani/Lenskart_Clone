@@ -4,6 +4,20 @@ CLEARDEKHO offer you the convenience of shopping for eyeglasses that you need fo
 
 <h3>Live Demo Link https://cleardekho-rutuvikp.vercel.app/ </h3>
 
+
+
+# FEATURE
+
+- Login/signup user account  
+- login with google authentication
+- Cart Add/Remove items
+- Cart Update quantities
+- Wishlist Add/Remove items
+- Coupons are provided for discount
+- Order details sent through email (Nodemailer)
+- Admin can Add/remove the products
+- Admin can update the products
+
  <h1>Home Page</h1>
  <a href='https://postimg.cc/Fkch5tFT' target='_blank'><img src='https://i.postimg.cc/J0Y0XmfC/Screenshot-1940.png' border='0' alt='Screenshot-1940'/></a>
 <!--     <img src="https://github.com/RutuvikP/shiny-blade-5949/assets/107463268/6e22071a-3162-44c4-a515-eedc494bc5f0" alt=""> -->
