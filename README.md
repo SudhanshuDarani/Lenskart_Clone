@@ -5,6 +5,13 @@ CLEARDEKHO offer you the convenience of shopping for eyeglasses that you need fo
 <h3>Live Demo Link https://cleardekho-rutuvikp.vercel.app/ </h3>
 
 
+## Screens 
+- Homepage / Landing Page
+- Cart page
+- Products page
+- Sigle-product Page
+- Login  Page
+- Signup Page
 
 # FEATURE
 
@@ -15,54 +22,135 @@ CLEARDEKHO offer you the convenience of shopping for eyeglasses that you need fo
 - Wishlist Add/Remove items
 - Coupons are provided for discount
 - Order details sent through email (Nodemailer)
-- Admin can Add/remove the products
-- Admin can update the products
 
- <h1>Home Page</h1>
- <a href='https://postimg.cc/Fkch5tFT' target='_blank'><img src='https://i.postimg.cc/J0Y0XmfC/Screenshot-1940.png' border='0' alt='Screenshot-1940'/></a>
-<!--     <img src="https://github.com/RutuvikP/shiny-blade-5949/assets/107463268/6e22071a-3162-44c4-a515-eedc494bc5f0" alt=""> -->
-  <h1>Signup Page </h1>
-  <a href='https://postimg.cc/jDkq741Q' target='_blank'><img src='https://i.postimg.cc/nLnXNdY5/Screenshot-1944.png' border='0' alt='Screenshot-1944'/></a>
-<!--     <img src="https://github.com/RutuvikP/shiny-blade-5949/assets/107463268/6e22071a-3162-44c4-a515-eedc494bc5f0" alt=""> -->
-     <h1>Login Page</h1>
-     <a href='https://postimg.cc/sBdjmgVv' target='_blank'><img src='https://i.postimg.cc/Bvtjqjkc/Screenshot-1945.png' border='0' alt='Screenshot-1945'/></a>
-<!--     <img src="https://github.com/RutuvikP/shiny-blade-5949/assets/107463268/087b1bc1-6df2-4523-9db8-414a3c4e1cf6" alt=""> -->
-     <h1>Products-Page</h1>
-<!--      <a href='https://postimg.cc/PpCSqTwQ' target='_blank'><img src='https://i.postimg.cc/503Tnt9T/Screenshot-1953.png' border='0' alt='Screenshot-1953'/></a> -->
-    <img src="https://i.postimg.cc/zX1c6LQr/Screenshot-1953.png" alt="">
-     <h1>Single Product-Page</h1>
-     <a href='https://postimg.cc/N5ck31p4' target='_blank'><img src='https://i.postimg.cc/ZK9syHN1/Screenshot-1954.png' border='0' alt='Screenshot-1954'/></a>
-<!--     <img src="https://github.com/RutuvikP/shiny-blade-5949/assets/107463268/7f96ee4c-cda0-484b-8ba9-3612b0c4eaf2" alt=""> -->
-     <h1>Cart-Page</h1>
-     <a href='https://postimg.cc/K1wxcFR4' target='_blank'><img src='https://i.postimg.cc/wBTvVjz5/Screenshot-1955.png' border='0' alt='Screenshot-1955'/></a>
-<!--     <img src="https://i.postimg.cc/wBTvVjz5/Screenshot-1955.png" alt=""> -->
-    <h1>Admin-Page</h1>
-    <a href='https://postimg.cc/XrSXxwks' target='_blank'><img src='https://i.postimg.cc/8zsWp4Jg/Screenshot-1960.png' border='0' alt='Screenshot-1960'/></a>
-<!--     <img src="https://github.com/RutuvikP/shiny-blade-5949/assets/107463268/8c4ce529-beee-41a2-adef-68416493395c" alt=""> -->
-    <h1>Admin Products Page</h1>
-    <a href='https://postimg.cc/7bJxc56d' target='_blank'><img src='https://i.postimg.cc/7Pmf57yH/Screenshot-1961.png' border='0' alt='Screenshot-1961'/></a>
-<!--     <img src="https://github.com/RutuvikP/shiny-blade-5949/assets/107463268/85b7050e-e57d-4bd7-97d3-5ed430f17b29" alt=""> -->
-    <h1>Checkout Page</h1>
-    <a href='https://postimg.cc/w1TZCr2M' target='_blank'><img src='https://i.postimg.cc/4xzG9kh6/Screenshot-1956.png' border='0' alt='Screenshot-1956'/></a>
-    <a href='https://postimg.cc/TyQrZkkd' target='_blank'><img src='https://i.postimg.cc/Pxn2v9Yw/Screenshot-1957.png' border='0' alt='Screenshot-1957'/></a>
-<!--     <img src="https://github.com/RutuvikP/shiny-blade-5949/assets/107463268/16ec56b4-04c8-4a2c-a4c4-b9e6385ff959">
-    <img src="https://github.com/RutuvikP/shiny-blade-5949/assets/107463268/b7e56c0b-c3b3-4a16-b48a-8ab4335a137f" alt=""> -->
-    <h1>[Getting Started]</h1>
-    <h3>Execution</h3>
-    <p>If you want to run our project in your local machine</p>
-    <p>Follow the given steps:</p>
-    <ul>
-        <!-- <li>Clone our respository <a href="https://github.com/RutuvikP/shiny-blade-5949.git">https://github.com/RutuvikP/shiny-blade-5949.git</a></li> -->
-        <li>Open our code in VS code </li>
- <li>Then do npm install</li>
-        <li>Then Initialize the server by writing 'npm run start' on Terminal</li>
- <li>Congrats !  you have successfully sarted the application.</li>
-    </ul>
-        <h1>Built with</h1>
-    <ul>
-        <li>React</li>
-        <li>Node</li>
-        <li>Express</li>
-         <li>Mongodb</li>
-        <li>Chakra UI </li>
-    </ul>
+
+
+
+<table>
+
+  <tr>
+    <td><img src="https://github.com/SudhanshuDarani/Lenskart_Cart/blob/main/frontend/public/home_page.png?raw=true" alt="homepage" /></td>
+    <td><img src="https://github.com/SudhanshuDarani/Lenskart_Cart/blob/main/frontend/public/signIn_page.png?raw=true" alt="login" /></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/SudhanshuDarani/Lenskart_Cart/blob/main/frontend/public/signUp_page.png?raw=true" alt="signin" /></td>
+    <td><img src="https://github.com/SudhanshuDarani/Lenskart_Cart/blob/main/frontend/public/nodemailer.png?raw=true" alt="nodemailer" /></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/SudhanshuDarani/Lenskart_Cart/blob/main/frontend/public/wishlist.png?raw=true" alt="myList" /></td>
+    <td><img src="https://github.com/SudhanshuDarani/Lenskart_Cart/blob/main/frontend/public/carts_page.png?raw=true" alt="cartpage" /></td>
+  </tr>
+    <tr>
+    <td><img src="https://github.com/SudhanshuDarani/Lenskart_Cart/blob/main/frontend/public/products_page.png?raw=true" alt="products" /></td>
+    <td><img src="https://github.com/SudhanshuDarani/Lenskart_Cart/blob/main/frontend/public/single_products_page.png?raw=true" alt="singleCard" /></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/SudhanshuDarani/Lenskart_Cart/blob/main/frontend/public/checkout_page.png?raw=true" alt="checkout" /></td>
+ </tr>
+</table>
+   
+    
+    
+    
+## Getting Started
+
+This project was built using React, Redux, Chakra UI, HTML, CSS, JavaScript, Rest API, Node JS, Express and MongoDB with JWT . It is an e-commerce web application and for running on your local environment you should follow these guidelines.
+
+
+### Prerequisites
+
+- NPM
+- Node JS
+- MongoDB
+
+### Setup
+
+
+The project repository can be found in [GitHub link](https://github.com/SudhanshuDarani/Lenskart_Cart.git) or just clone the project using this command.
+
+
+```
+Using HTTPS
+
+# git clone https://github.com/SudhanshuDarani/Lenskart_Cart.git
+```
+
+
+
+## Install
+
+Install NPM
+
+Check that you have node and npm installed
+
+To check if you have Node.js installed, run this command in your terminal:
+
+
+```
+node -v
+```
+
+To confirm that you have npm installed you can run this command in your terminal:
+
+
+```
+npm -v
+```
+
+To confirm that you have MongoDB installed you can run this command in your terminal:
+
+
+```
+mongo -v
+```
+
+
+To install all the dependences of the project, run the following command:
+
+
+```
+cd frontend
+
+npm install
+
+cd ../
+
+cd backend
+
+npm install
+```
+
+
+To run the application got to the client folder and run the following command:
+
+```
+npm start
+```
+
+
+
+
+
+### Tools used on this project
+
+- Visual Studio Code
+- MongoDB compass
+
+<br />
+
+
+
+## Contact
+
+If you want to contact me, you can reach me through below handles.
+
+[![linkedin](https://img.shields.io/badge/Sudhanshu_Darani-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sudhanshu-darani/)
+[![GitHub](https://img.shields.io/badge/Sudhanshu_darani-20232A?style=for-the-badge&logo=Github&logoColor=white)](https://github.com/SudhanshuDarani)
+
+© 2022 Sudhanshu Darani
+
+
+
+## Show your support
+
+Give a ⭐️ if you like this project!
